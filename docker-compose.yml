@@ -1,0 +1,12 @@
+version: "3"
+services:
+  api:
+    build:
+      context: go-service
+    image: go-service
+    ports:
+    - "8080:8080"
+  py-client:
+    build:
+      context: py-client
+    image: py-client
