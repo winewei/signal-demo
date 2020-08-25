@@ -1,4 +1,4 @@
-module signal-demo/service
+module signal-demo/go-service
 
 go 1.14
 
