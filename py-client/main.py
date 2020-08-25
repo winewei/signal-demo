@@ -2,7 +2,7 @@ import requests
 import logging
 import signal, sys, os
 
-API_URL = "http://go-server:8080/test"
+API_URL = "http://api:8080/test"
 CLIENT = "py3"
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO,
